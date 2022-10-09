@@ -9,4 +9,4 @@ print(colored("Not sure what should be your band name? Well, let me generate one
 a = input("Which city did you grow up in?\n\u279D ")
 b = input("What's the name of your pet?\n\u279D ")
 print("An interesting band name for you would be ",end="")
-print(colored(a+" "+b,"blue"))
+print(colored(a+" "+b, "blue", attrs=["bold"]))
